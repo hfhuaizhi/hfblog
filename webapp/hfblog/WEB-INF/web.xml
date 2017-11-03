@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>	
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Check</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.Check</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserList</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.GetUserList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertUser</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.InsertUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUser</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.DeleteUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUser</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.UpdateUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetBaogao</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.GetBaogao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUser</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.AddUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateSetUser</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.UpdateSetUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTongxunlu</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.GetTongxunlu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteTongxun</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.DeleteTongxun</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddTongxun</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.AddTongxun</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateSetTongxun</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.UpdateSetTongxun</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateTongxun</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.UpdateTongxun</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetArtical</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.GetArtical</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addArtical</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.addArtical</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteArtical</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.deleteArtical</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateSetArtical</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.UpdateSetArtical</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateArtical</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.UpdateArtical</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>index</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.index</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowArtical</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.ShowArtical</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadFile</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.UploadFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetFile</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.GetFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteFile</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.DeleteFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetBlogFile</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.GetBlogFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetGood</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.GetGood</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGood</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.AddGood</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadGood</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.UploadGood</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePriceDone</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.UpdatePriceDone</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetBlogGood</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.GetBlogGood</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGouwu</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.AddGouwu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RemoveGouwu</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.RemoveGouwu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadFile</servlet-name>
+    <servlet-class>com.hfhuaizhi.servlet.DownloadFile</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <servlet-mapping>
+    <servlet-name>Check</servlet-name>
+    <url-pattern>/Check</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserList</servlet-name>
+    <url-pattern>/GetUserList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertUser</servlet-name>
+    <url-pattern>/InsertUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUser</servlet-name>
+    <url-pattern>/DeleteUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUser</servlet-name>
+    <url-pattern>/UpdateUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBaogao</servlet-name>
+    <url-pattern>/GetBaogao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUser</servlet-name>
+    <url-pattern>/AddUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSetUser</servlet-name>
+    <url-pattern>/UpdateSetUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTongxunlu</servlet-name>
+    <url-pattern>/GetTongxunlu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteTongxun</servlet-name>
+    <url-pattern>/DeleteTongxun</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddTongxun</servlet-name>
+    <url-pattern>/AddTongxun</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSetTongxun</servlet-name>
+    <url-pattern>/UpdateSetTongxun</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateTongxun</servlet-name>
+    <url-pattern>/UpdateTongxun</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetArtical</servlet-name>
+    <url-pattern>/GetArtical</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addArtical</servlet-name>
+    <url-pattern>/addArtical</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteArtical</servlet-name>
+    <url-pattern>/deleteArtical</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSetArtical</servlet-name>
+    <url-pattern>/UpdateSetArtical</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateArtical</servlet-name>
+    <url-pattern>/UpdateArtical</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowArtical</servlet-name>
+    <url-pattern>/ShowArtical</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadFile</servlet-name>
+    <url-pattern>/UploadFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetFile</servlet-name>
+    <url-pattern>/GetFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteFile</servlet-name>
+    <url-pattern>/DeleteFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBlogFile</servlet-name>
+    <url-pattern>/GetBlogFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGood</servlet-name>
+    <url-pattern>/GetGood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGood</servlet-name>
+    <url-pattern>/AddGood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadGood</servlet-name>
+    <url-pattern>/UploadGood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePriceDone</servlet-name>
+    <url-pattern>/UpdatePriceDone</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBlogGood</servlet-name>
+    <url-pattern>/GetBlogGood</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGouwu</servlet-name>
+    <url-pattern>/AddGouwu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveGouwu</servlet-name>
+    <url-pattern>/RemoveGouwu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadFile</servlet-name>
+    <url-pattern>/DownloadFile</url-pattern>
+  </servlet-mapping>
+    <welcome-file-list> 
+
+<welcome-file>index.jsp</welcome-file> 
+<welcome-file>index.html</welcome-file>
+</welcome-file-list>
+</web-app>
