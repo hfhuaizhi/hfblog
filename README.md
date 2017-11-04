@@ -47,13 +47,13 @@
 
 </c3p0-config>
 ```
-将==username==和==password==改为你数据库的用户名和密码，关于数据库的安装下面会说
-4.下载mysql数据库，并下载sqlyog管理器，安装数据库的时候会提示你设置用户名和密码，就是上边要用到的那个
-5.在sqlyog里执行我提供的sql语句“hfblog\WEB-INF\hfblog.sql”
-6.最后，运行tomcat，打开浏览器，输入 “http://localhost:8080/hfblog” 就可查看博客了，登录后台管理器需要点击右上角那个登录
+将username和password改为你数据库的用户名和密码，关于数据库的安装下面会说
+-  下载mysql数据库，并下载sqlyog管理器，安装数据库的时候会提示你设置用户名和密码，就是上边要用到的那个
+- 在sqlyog里执行我提供的sql语句“hfblog\WEB-INF\hfblog.sql”
+- 最后，运行tomcat，打开浏览器，输入 “http://localhost:8080/hfblog” 就可查看博客了，登录后台管理器需要点击右上角那个登录
 # 演示网址
 [hfblog](http://139.199.185.242/hfblog)
 - 如果链接打不开了，那可能是我没钱给服务器续费了吧
-#联系方式
+# 联系方式
 - 使用过程中遇到问题请发邮件 “2323089526@qq.com”
 # 最后，转载请注明出处
